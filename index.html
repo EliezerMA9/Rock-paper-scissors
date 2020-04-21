@@ -3,33 +3,38 @@
     <title>Rock!, Paper!, Scissors!</title>
 </head>
 
-<body>
-    <div class=topbody>
-        <div class="userChoice" id="rock" onclick="choice(this.id)">
+<body id=body>
+    <div class=topbody id="topbody">
+        <div class="userChoice" id="rock" >
             <img id="rockimg" src="resources/rock.png" draggable="false">
             <p class="text">ROCK</p>
         </div>
-        <div class="userChoice" id="paper" onclick="choice(this.id)">
+        <div class="userChoice" id="paper">
             <img id="paperimg" src="resources/paper.png" draggable="false">
             <p class="text">PAPER</p>
         </div>
-        <div class="userChoice" id="scissors" onclick="choice(this.id)">
+        <div class="userChoice" id="scissors">
             <img id="scissorsimg" src="resources/scissors.png" draggable="false">
             <p class="text">SCISSORS</p>
         </div>
     </div>
-    <div class="centerbody">
+    <div class="centerbody" id="centerbody">
         <div class="fight">
             <img id="choice" src="resources/placeholder.jpg" draggable="false">
         </div>
         <div>
-            <img id="vs" src="resources/vs.png" draggable="false">
+            <img id="vs" src="resources/vs.png" draggable="false" >
         </div>
         <div class="fight">
             <img id="random" src="resources/placeholder.jpg" draggable="false">
         </div>
     </div>
-    <div class="winner">a</div>
+    <div class="bottombody" id="bottombody">
+        <div class="winner" id="winner"></div>
+        <div class="playbutton" id="playbutton">
+            <img id="playlogo" src="/resources/playlogo.svg">
+        </div>
+    </div>
 
     <script src="js/script.js"></script>
     <link rel="stylesheet" href="css/style.css">

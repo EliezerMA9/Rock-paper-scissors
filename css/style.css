@@ -1,7 +1,7 @@
 body{
     user-select: none;
 
-    background-image: url("../resources/cool-background.png");
+    background-image: url("https://fandanguito.github.io/resources/cool-background.png");
     background-size: cover;
     background-color: #f09e40;
 
@@ -10,7 +10,7 @@ body{
 
 @font-face{
     font-family: lemonmilk;
-    src: url(../fonts/Nueva/LEMONMILK-Regular.otf);
+    src: url("https://fandanguito.github.io/fonts/LEMONMILK-Regular.otf");
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');

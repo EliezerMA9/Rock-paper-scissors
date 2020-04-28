@@ -1,8 +1,8 @@
 body{
     user-select: none;
 
-    /*background-image: url("../resources/cool-background.png");
-    background-size: cover;*/
+    background-image: url("../resources/cool-background.png");
+    background-size: cover;
     background-color: #f09e40;
 
     overflow: hidden;
